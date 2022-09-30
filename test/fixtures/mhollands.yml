@@ -1,0 +1,7 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mason_holland@tayloredu: MyString
+
+two:
+  mason_holland@tayloredu: MyString

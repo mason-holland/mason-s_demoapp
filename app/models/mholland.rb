@@ -1,0 +1,2 @@
+class Mholland < ApplicationRecord
+end

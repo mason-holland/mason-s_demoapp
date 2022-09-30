@@ -1,0 +1,22 @@
+<%= form_with(model: mholland) do |form| %>
+  <% if mholland.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(mholland.errors.count, "error") %> prohibited this mholland from being saved:</h2>
+
+      <ul>
+        <% mholland.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :mason_holland@tayloredu, style: "display: block" %>
+    <%= form.text_field :mason_holland@tayloredu %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
